@@ -8,7 +8,7 @@ import {
 export default function GithubLink(props) {
   return (
     <div>
-      <a  href={props.href}>fdf</a>
+      <a  href={props.href} target="_blank"><GithubIcon className="text-3xl" /></a>
     </div>
   )
 }

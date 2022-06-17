@@ -1,14 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
-import TopBar from "../src/Components/TopBar";
-import HeroSection from "../src/Components/HeroSection";
-import AboutSection from "../src/Components/AboutSection";
-import ProjectsSection from "../src/Components/ProjectsSection";
-import GithubLink from "../src/Components/GithubLink";
-import {
-  SiTwitter as TwitterIcon,
-  SiFreelancer as FreelancerIcon,
-} from "react-icons/si";
+import TopBar from "../Components/TopBar";
+import HeroSection from "../Components/HeroSection";
+import AboutSection from "../Components/AboutSection";
+import ProjectsSection from "../Components/ProjectsSection";
+import GithubLink from "../Components/GithubLink";
+import TwitterLink from "../Components/TwitterLink";
+import FreelancerLink from "../Components/FreelancerLink";
+
 export default function Home() {
   return (
     <>
@@ -27,9 +26,9 @@ export default function Home() {
             </p>
         
           <div className="flex justify-center items-center gap-4 py-5">
-           <GithubLink href="https://github.com/KassemHachi/" />
-            <TwitterIcon className="text-3xl" />
-            <FreelancerIcon className="text-3xl" />
+          <GithubLink href="https://github.com/KassemHachi/"/>
+            <TwitterLink href="https://twitter.com/kassemhachi" />
+            <FreelancerLink  href="https://www.freelancer.com/u/kassemhachi" />
             
           </div>
           <div className="flex justify-center items-center gap-4 ">

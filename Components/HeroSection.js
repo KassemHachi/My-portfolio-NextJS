@@ -1,8 +1,7 @@
-import {
-  SiTwitter as TwitterIcon,
-  SiGithub as GithubIcon,
-  SiFreelancer as FreelancerIcon,
-} from "react-icons/si";
+
+import TwitterLink from "../Components/TwitterLink";
+import GithubLink from "../Components/GithubLink";
+import FreelancerLink from "../Components/FreelancerLink";
 export default function HeroSection() {
   return (
     <div className=" content-center mx-auto justify-center top-full relative">
@@ -33,9 +32,9 @@ export default function HeroSection() {
             Programmer, Designer, Animator
           </p>
           <div className="flex justify-center items-center gap-4">
-            <GithubIcon className="text-3xl" />
-            <TwitterIcon className="text-3xl" />
-            <FreelancerIcon className="text-3xl" />
+            <GithubLink href="https://github.com/KassemHachi/"/>
+            <TwitterLink href="https://twitter.com/kassemhachi" />
+            <FreelancerLink  href="https://www.freelancer.com/u/kassemhachi" />
           </div>
         </div>
       </div>
