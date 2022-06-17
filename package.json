@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.4",
     "autoprefixer": "^10.4.7",
+    "dlx": "^0.2.1",
     "next": "12.1.6",
     "next-use-contextual-routing": "^2.3.0",
     "postcss": "^8.4.14",
@@ -22,7 +23,8 @@
     "react-modal-video": "^1.2.8",
     "react-modal-videojs": "^0.3.0",
     "react-youtube-modal": "^1.1.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "vercel": "^25.1.0"
   },
   "devDependencies": {
     "eslint": "8.16.0",

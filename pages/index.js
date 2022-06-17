@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import TopBar from "../Components/TopBar";
-import HeroSection from "../Components/HeroSection";
-import AboutSection from "../Components/AboutSection";
-import ProjectsSection from "../Components/ProjectsSection";
-import GithubLink from "../Components/GithubLink";
+import TopBar from "../src/Components/TopBar";
+import HeroSection from "../src/Components/HeroSection";
+import AboutSection from "../src/Components/AboutSection";
+import ProjectsSection from "../src/Components/ProjectsSection";
+import GithubLink from "../src/Components/GithubLink";
 import {
   SiTwitter as TwitterIcon,
   SiFreelancer as FreelancerIcon,
