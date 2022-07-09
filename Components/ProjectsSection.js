@@ -14,7 +14,7 @@ export default function ProjectsSection() {
       <div className="flex flex-wrap  justify-center  ">
       <ModalImage
       hideDownload = {true} 
-  small={'https://scontent.floo1-1.fna.fbcdn.net/v/t1.15752-9/285612037_437229055075313_2048625068671358490_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGrzTD-AdcFo2Sk19knG-4DfJfUQqjbLm98l9RCqNsub4ACOwDkMO9svScBW20Y7NliCB0gjBR02UYvlUokO_uc&_nc_ohc=sMg6jUdCvrkAX8YMfoB&_nc_oc=AQnyB_PDR9UPDBptKkMYEQbTyGwdaL3--WSLDbeCFqIcwUTKfpLPETth3S0CRV4qWuM&_nc_ht=scontent.floo1-1.fna&oh=03_AVKrhVkTZ9g8_BKZq3N8FfvpXhP_Zvi68Y69XkUem3ibEA&oe=62C8B5A9'}
+  small={'https://scontent.floo1-1.fna.fbcdn.net/v/t1.15752-9/285612037_437229055075313_2048625068671358490_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGrzTD-AdcFo2Sk19knG-4DfJfUQqjbLm98l9RCqNsub4ACOwDkMO9svScBW20Y7NliCB0gjBR02UYvlUokO_uc&_nc_ohc=mPAyh5Df91IAX-VZ8St&_nc_oc=AQnaq4ZQUOn4HfvoWTFfZzLl1jBJdbVhzAxu7jVsoA6JyZdl7tbFSAzM7DiH3pomdIM&_nc_ht=scontent.floo1-1.fna&oh=03_AVKmrMA5ti86tpLP-B6VAJmnhvAnC407AOa2pl1siDzhwQ&oe=62F042A9'}
   large={'https://i.suar.me/eWeYK/l'}
 
   alt="WifiDjelfa.net"
