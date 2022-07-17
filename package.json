@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.6.4",
+    "@nextui-org/react": "^1.0.0-beta.9",
     "autoprefixer": "^10.4.7",
     "dlx": "^0.2.1",
     "next": "12.1.6",

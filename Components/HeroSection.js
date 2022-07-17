@@ -16,13 +16,13 @@ export default function HeroSection() {
       ></div>
 
       <div className="z-10 absolute top-44 md:right-[42.5%] right-[25%] sm:right-[30%] animate-fade-in-up">
-      
+
         <div className="border-4 border-green-400/80 rounded-full overflow-clip shadow-xl">
-        
+
 
           <img
             className="h-56 w-56 z-20"
-            src="https://scontent.floo1-2.fna.fbcdn.net/v/t1.6435-9/71118931_739274396537626_1576056919490035712_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFKE2VpHpsDW8rPs06-O_Z4Q1KdUElyN5ZDUp1QSXI3ll81UQWGPI8XnAWQJYXhW5hSwYXwKDpwwHN37b3rUtoa&_nc_ohc=WSwYQKriVQgAX_cMR-q&tn=FlL6pyq3-fuQ6F9w&_nc_ht=scontent.floo1-2.fna&oh=00_AT_afpO1P-Ck4IUGdsMeJaUc5-MtnRcvEVdrMZVoVanAZg&oe=62B989FF"
+            src="https://avatars.githubusercontent.com/u/30910460?v=4"
           />
           <span className="animate-ping absolute top-0 inline-flex h-56 w-56  rounded-full bg-green-500 opacity-75 -z-10"></span>
         </div>
@@ -32,9 +32,9 @@ export default function HeroSection() {
             Programmer, Designer, Animator
           </p>
           <div className="flex justify-center items-center gap-4">
-            <GithubLink href="https://github.com/KassemHachi/"/>
+            <GithubLink href="https://github.com/KassemHachi/" />
             <TwitterLink href="https://twitter.com/kassemhachi" />
-            <FreelancerLink  href="https://www.freelancer.com/u/kassemhachi" />
+            <FreelancerLink href="https://www.freelancer.com/u/kassemhachi" />
           </div>
         </div>
       </div>
