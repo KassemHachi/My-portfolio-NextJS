@@ -42,7 +42,13 @@ export default function ProjectsSection() {
             Large="https://i.suar.me/oK4w1/l"
           />
         </div>
-        <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  "></div>
+        <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  ">
+          <ModalView
+            Title="Dashboard Page"
+            Small="dashboard.jpeg"
+            Large="dashboard.jpeg"
+          />
+        </div>
         <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  "></div>
         <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  "></div>
         <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  "></div>
