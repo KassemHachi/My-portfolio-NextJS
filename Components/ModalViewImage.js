@@ -13,11 +13,11 @@ export default function ModalView(props) {
       src={props.Small}
       onClick={() => setVisible(true)}
     ></img>
-      <Modal noPadding open={visible} onClose={closeHandler}>
+      <Modal noPadding width='100%' open={visible} onClose={closeHandler}>
         <Modal.Header
           className="bg-slate-900"
         >
-          <Text color="#fff">
+          <Text className='text-lg' color="#fff">
             {props.Title}
           </Text>
         </Modal.Header>

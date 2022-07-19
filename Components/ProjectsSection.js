@@ -1,7 +1,7 @@
 import ModalImage from "react-modal-image";
 import { Modal, Button, Image, Text, Link } from "@nextui-org/react";
 import React from "react";
-import ModalView from "./ModalView";
+import ModalView from "./ModalViewImage";
 
 export default function ProjectsSection() {
   const [visible, setVisible] = React.useState(false);
@@ -42,10 +42,10 @@ export default function ProjectsSection() {
             Large="https://i.suar.me/oK4w1/l"
           />
         </div>
-        <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  ">
+        <div className="rounded-xl h-64 w-full md:w-64 bg-gray-800 mx-3 my-3  overflow-clip cursor-pointer">
           <ModalView
             Title="Dashboard Page"
-            Small="dashboard.jpeg"
+            Small="https://scontent.xx.fbcdn.net/v/t1.15752-9/288261245_1756330018046136_3138740157113506155_n.png?stp=dst-png_p403x403&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGdMrVMwyD6LyC1i_ao8GEml4bj3qseg8KXhuPeqx6Dwtcg3A25NKrr3ReNnn5F1auX6Ar7Ob72dwOAMIkb2cAa&_nc_ohc=GX0_OI_PCz4AX9Zf61o&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLyulwh84Es4YEfv8nT4BWxLMfz5FfwgqJAv-3Tw54PFQ&oe=62FB853D"
             Large="dashboard.jpeg"
           />
         </div>
